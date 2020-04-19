@@ -1,12 +1,10 @@
-# nuxt-firebase
-
-> My bee&#39;s knees Nuxt.js project
+# nuxt-firebase-Neumorphism
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm run install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -19,4 +17,18 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Firebase data setting
+
+```plugins/firebase.js
+//省略
+    apiKey: "YourCode",
+    authDomain: "YourCode",
+    databaseURL: "YourCode",
+    projectId: "YourCode",
+    storageBucket: "YourCode",
+    messagingSenderId: "YourCode",
+    appId: "YourCode",
+    measurementId: "YourCode"
+//省略
+```
+※各自のFirebaseアプリの情報に差し替え
